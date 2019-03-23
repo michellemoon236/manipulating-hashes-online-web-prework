@@ -19,7 +19,7 @@ def first_challenge
   data.each do |attribute, value|
     
   if attribute == :favorite_icecream_flavors
-    value.delet_if.each do |flavor|
+    value.delete_if.each do |flavor|
         flavor == "strawberry"
     end
   end
